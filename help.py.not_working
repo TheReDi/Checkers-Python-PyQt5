@@ -1,0 +1,35 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'help.ui'
+#
+# Created by: PyQt5 UI code generator 5.13.0
+#
+# WARNING! All changes made in this file will be lost!
+
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+
+class Ui_Help(object):
+    def setupUi(self, Help):
+        Help.setObjectName("Help")
+        Help.resize(483, 268)
+        icon = QtGui.QIcon()
+        icon.addPixmap(QtGui.QPixmap("Image/Help.png"), QtGui.QIcon.Normal, QtGui.QIcon.Off)
+        Help.setWindowIcon(icon)
+        self.label = QtWidgets.QLabel(Help)
+        self.label.setGeometry(QtCore.QRect(70, 0, 361, 231))
+        font = QtGui.QFont()
+        font.setPointSize(14)
+        self.label.setFont(font)
+        self.label.setObjectName("label")
+
+        self.retranslateUi(Help)
+        QtCore.QMetaObject.connectSlotsByName(Help)
+
+    def retranslateUi(self, Help):
+        _translate = QtCore.QCoreApplication.translate
+        Help.setWindowTitle(_translate("Help", "Справка"))
+        self.label.setText(_translate("Help", "Молодец! Умничка какой! \n"
+"А теперь быстренько вернул все назад!\n"
+"И чтоб больше я такого не видел =^="))
