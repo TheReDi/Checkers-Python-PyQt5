@@ -1,11 +1,15 @@
-# Шашки(Checkers)
+# **Шашки(Checkers)**
+### Описание
 Перед вами представляются самые обычные шашки. В них нет ничего особенного. Тут скорее есть лишь минусы. К примеру, нельзя менять правила. Они тут только одни – Американские Любительские, т.е. рубить назад нельзя, дамки не летают по доске, взятие не обязательно. В принципе все, описание на этом заканчивается
 
-В ходе разработки были применены следующие технологии:
-PyCharm JetBrains
-Python
-PyQt5
-QtDesigner
 
-  dir /has
-  asdasfvuranuvaiuvbsabh
+### Использованные технологии
+В ходе разработки были применены следующие технологии:
+- [PyCharm JetBrains](https://www.jetbrains.com/ru-ru/pycharm/)
+- [Python](https://www.python.org/)
+- [PyQt5](https://www.riverbankcomputing.com/static/Docs/PyQt5/)
+- [QtDesigner](https://doc.qt.io/qt-5/qtdesigner-manual.html)
+
+
+### На будущее
+Хехехе
